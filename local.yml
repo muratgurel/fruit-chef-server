@@ -1,0 +1,7 @@
+logger:
+  level: "DEBUG"
+runtime:
+  js_entrypoint: "build/index.js"
+  http_key: defaultkey
+session:
+  token_expiry_sec: 7200 # 2 hours
